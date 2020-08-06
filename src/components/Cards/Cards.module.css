@@ -17,3 +17,12 @@
 .deaths{
     border-bottom: 10px solid rgba(255,0,0,0.5);
 }
+
+@media (max-width:500px){
+    .infected{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        flex: 0;
+    }
+}
